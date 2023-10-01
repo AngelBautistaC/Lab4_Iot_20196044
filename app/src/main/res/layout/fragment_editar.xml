@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="titulo" />
+    <EditText
+        android:id="@+id/editFirst"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nombre" />
+    <EditText
+        android:id="@+id/editLast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/editGender"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Género" />
+
+    <EditText
+        android:id="@+id/editCity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Ciudad" />
+
+    <EditText
+        android:id="@+id/editCountry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="País" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Teléfono" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Guardar" />
+</LinearLayout>
